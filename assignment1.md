@@ -34,5 +34,9 @@ Determine which of those minor planets **are** and which **are not** in the **2:
 2 - Determine which Neptune mean-motion resonance K14UM9M is located in, if any.
 
 - *Hints*: 
+   - Use the semi-major axis of the TNO and Neptune and eq. 1 from the reading to determine the integer prediod ratio of Neptune:K14UM9M (example values might be 3:2, 2:1, 5:4, etc) of the possible mean-motion resonance.
+   - Use rebound to compute the evolution of the resonant arguement relvant to the ratio above and determine if that argument osscilates our is confined.
+   
 
- - email jjk@uvic.ca if you have other questions. 
+
+Email me (jjk@uvic.ca) if you have other questions. 
