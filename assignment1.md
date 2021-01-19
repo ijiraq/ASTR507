@@ -20,7 +20,7 @@ Determine which of those minor planets **are** and which **are not** in the **2:
    - In rebound use the ‘WHFast’ integrator (others work to but WHFast is precise enough for this problem and quick)
    - Integrate for 1E4 years and plot the time evolution of the resonant arguments.
    - Use a time-step of 0.1 years with 1000 time outputs  (see the quick start example to see how to record values)
-   - Use the ’sim.compute_orbits()’ function to compute the keplerian elements at each step.
+   - Use the `sim.compute_orbits()` function to compute the keplerian elements at each step.
    - The objects returned by compute_orbits calls have elements a/e/inc/Omega/omega/M/lambda as attributes.
      When I did this I used python code like the following snippet to get the resonant argument at each timestep (you must call compute_orbit [or compute_orbits] at the end of each time step to get the evolution of the keplerian elements). 
      ```
