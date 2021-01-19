@@ -16,6 +16,7 @@ Determine which of those minor planets **are** and which **are not** in the **2:
    - Use the rebound integrator to compute the orbital evolution of the particles mentioned above. 
    - To install rebound follow the instructions in the [Quick Start guide to setup rebound](https://rebound.readthedocs.io/en/latest/python_quickstart.html)
    - Once you have Rebound installed follow the [C-G Comet](https://rebound.readthedocs.io/en/latest/ipython/Churyumov-Gerasimenko.html) to become comfortable with rebound and learn some useful python ploting.
+   - For the TNO integration please be sure to sim.add('Uranus') and sim.add('Neptune').   Adding objects in order of distance from the Sun helps rebound keep the centre of mass straight.
    - *If Python and Notebooks are new to you and you want some guidence, please contact me.*
    - In rebound use the ‘WHFast’ integrator (others work to but WHFast is precise enough for this problem and quick)
    - Integrate for 1E4 years and plot the time evolution of the resonant arguments.
