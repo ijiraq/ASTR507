@@ -22,7 +22,7 @@ Determine which of those minor planets **are** and which **are not** in the **2:
    - Use a time-step of 1 year with 1000 time outputs  (see the quick start example to see how to record values)
    - Use the ’sim.compute_orbits()’ function to compute the keplerian elements at each step.
    - The objects returned by compute_orbits calls have elements a/e/inc/Omega/omega/M/lambda as attributes.
-     When I did this I used python code like the following snippet 
+     When I did this I used python code like the following snippet to get the resonant argument at each timestep (you must call compute_orbit [or compute_orbits] at the end of each time step to get the evolution of the keplerian elements). 
      ```
         orbit = sim.compute_orbit(4)
         omega_bar = (orbit.Omega + orbit.omega)
