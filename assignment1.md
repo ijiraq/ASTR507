@@ -4,7 +4,7 @@
 
 *Minor planets that are only recently discover and have short observational arcs are identified by a set of letters and numbers. For now we won’t go into what those designations mean, but the objects have names like K00A00A.*
  
-1 - Using the python version of [Rebound](https://rebound.readthedocs.io/en/latest/index.html) compute the evolution of the 2:1 resonance argument 
+(15 POINTS) 1 - Using the python version of [Rebound](https://rebound.readthedocs.io/en/latest/index.html) compute the evolution of the 2:1 resonance argument 
 for minor planets K13GD8G, K15RR7Y and K15VG6A.   (See the *Hints* before you start.)
 
 Although these minor planets all have semi-major axis values consistent with a 2:1 orbital commenserability with Neptune (the minor planet goes around the Sun once each time Neptune makes two solar orbits) not all are in mean-motion resonance with that planet.  
