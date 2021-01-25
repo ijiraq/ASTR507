@@ -19,8 +19,10 @@ Determine which of those minor planets **are** and which **are not** in the **2:
    - For the TNO integration please be sure to sim.add('Uranus') and sim.add('Neptune').   Adding objects in order of distance from the Sun helps rebound keep the centre of mass straight.
    - *If Python and Notebooks are new to you and you want some guidence, please contact me.*
    - In rebound use the ‘WHFast’ integrator (others work to but WHFast is precise enough for this problem and quick)
-   - Integrate for 1E4 years and plot the time evolution of the resonant arguments.
+   - Integrate for 1E5 years and plot the time evolution of the resonant arguments.
    - Use a time-step of 0.1 years with 1000 time outputs  (see the quick start example to see how to record values)
+   - dt = 0.1*2*np.pi for example. 
+   - Use a time-step of 0.1 years with 1000 time outputs  (see the quick start example to see how to record value
    - Use the `sim.compute_orbits()` function to compute the keplerian elements at each step.
    - The objects returned by compute_orbits calls are of type `orbit` and have elements `a,e,inc,Omega,omega,M` and also `lamda` (represented as *l*) as object as attributes.
    - One might use the python code snippet below to compute the resonant argument (shown here for the 3:2 resonance) at each timestep (calling `compute_orbit` [or `compute_orbits`] at the end of each time step) and then store the evolution of the keplerian elements. 
