@@ -1,11 +1,8 @@
-Confirm that the relation between J2,J4 and precession of 
-$\tilde{\omega}$ 
-and 
-$\Omega$ 
-and estimating the Laplace plane around Saturn.
+# Confirm that the relation between J<sub>2</sub>,J<sub>4</sub> and the precession of  &omega;&#771; and  &Omega;, and estimate the Laplace plane around Saturn. #
 
 **See REBOUNDx for adding extra forces to REBOUND, in particular: [Graviational Harmonics](https://github.com/dtamayo/reboundx/blob/master/ipython_examples/J2.ipynb)**
 
+**Submit your answer as a runable python notebook, using Markdown cells to explain and describe your work/answer.***
  
 (5 POINTS) 1 - Using the python version of [REBOUND](https://rebound.readthedocs.io/en/latest/index.html) and the 
 [REBOUNDx](https://github.com/dtamayo/reboundx/) extra forces package, follow the evolution of test particles around Saturn and confirm the analytic 
