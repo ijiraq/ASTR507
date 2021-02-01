@@ -1,4 +1,8 @@
-#Confirm that the relation between J2,J4 and precession of $\tilde{\omega}& and $\Omega$ and estimating the Laplace plane around Saturn.#
+Confirm that the relation between J2,J4 and precession of 
+$\tilde{\omega}$ 
+and 
+$\Omega$ 
+and estimating the Laplace plane around Saturn.
 
 **See REBOUNDx for adding extra forces to REBOUND, in particular: [Graviational Harmonics](https://github.com/dtamayo/reboundx/blob/master/ipython_examples/J2.ipynb)**
 
