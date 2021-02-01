@@ -10,3 +10,7 @@ expressions in Sections 2.6.2 of the text.  Report the percession rates as estim
 
 (10 POINTS) 2 - Considering a series of circular orbits spaced between the exterior of Saturn and orbit of Tritan plot the inclination of Saturn's [Laplace plane ](https://en.wikipedia.org/wiki/Laplace_plane) versus orbital distance from Saturn in units of Saturn radii.  Compare the precession rates for these orbits with those determined in part 1.  At what distance from Saturn is the analytic determination of the precession rate acurate to 5%?
 
+*Hints* 
+1 The test particles should have some eccentricty and inclination in their orbits so that &Omega; and &omega; are not poorly defined.
+2 Use the IAS15 integrator to handle close approaches.
+3 Use the analytic expressions to estimate the precession periods to determine the time span / duration of integraton you need.
