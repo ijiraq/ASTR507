@@ -6,8 +6,7 @@
  
 (5 POINTS) 1 - Using the python version of [REBOUND](https://rebound.readthedocs.io/en/latest/index.html) and the 
 [REBOUNDx](https://github.com/dtamayo/reboundx/) extra forces package, follow the evolution of test particles around Saturn and confirm the analytic 
-expressions in Sections 2.6.2 of the text.  Report the measured and analytic values as degrees/day and in dimensionless units.
+expressions in Sections 2.6.2 of the text.  Report the percession rates as estimated by your simulation and as estimated by the analytic formula in degrees/day and in dimensionless units.
 
-(10 POINTS) 2 - Add Tritan to your simulation from *1* and determine at what orbital distance from Saturn the analytic expressions fail.  Then, considering a series of circular orbits
-spaced between the exterior of Saturn and orbit of Tritan plot the inclination of Saturn's [Laplace plane ](https://en.wikipedia.org/wiki/Laplace_plane) versus orbital distance from Saturn in units of Saturn radii.
+(10 POINTS) 2 - Considering a series of circular orbits spaced between the exterior of Saturn and orbit of Tritan plot the inclination of Saturn's [Laplace plane ](https://en.wikipedia.org/wiki/Laplace_plane) versus orbital distance from Saturn in units of Saturn radii.  Compare the precession rates for these orbits with those determined in part 1.  At what distance from Saturn is the analytic determination of the precession rate acurate to 5%?
 
